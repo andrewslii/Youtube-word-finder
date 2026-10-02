@@ -38,8 +38,7 @@ The script will:
 
 Download and transcribe the video's audio
 Print how many total instances were found, and how many unique clips passed the filtering
-Save each clip as {VIDEO_ID}_clip_{n}_{KEYWORD}.mp4 in the working directory
-Delete the temporary audio file once finished
-Notes
-Larger Whisper models (small, medium) improve transcription accuracy at the cost of speed; the script defaults to base as a balance of both.
-Clip boundaries depend on Whisper's word-level timing, so very fast or overlapping speech may occasionally produce imprecise cuts.
+Save each clip as {VIDEO_ID}_clip_{n}_{KEYWORD}.mp4 in the working directory/folder
+
+Note:
+yt-dlp may need to be updated
